@@ -1,8 +1,9 @@
 package lesson_1;
 
-
 import java.util.Random;
-public class Homework_1{
+
+public class Homework_1 {
+
     //1.Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
     public static void printThreeWords(){
         System.out.println("Orange \n" + "Banana \n" + "Apple");
@@ -21,9 +22,7 @@ public class Homework_1{
 
     //Создайте метод printColor() в теле которого задайте int переменную value и инициализируйте ее любым значением. Если value меньше 0 (0 включительно), то в консоль метод должен вывести сообщение “Красный”, если лежит в пределах от 0 (0 исключительно) до 100 (100 включительно), то “Желтый”, если больше 100 (100 исключительно) - “Зеленый”;
     public static void printColor() {
-
         int value = new Random().nextInt(120)-30;
-
         if (value <= 0) {
             System.out.println("Красный");
         } else if (value>=1 && value<=100) {
