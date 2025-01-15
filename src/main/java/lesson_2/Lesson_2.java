@@ -48,7 +48,7 @@ public class Lesson_2 {
 
     // попробую сделать вложенный if else
     public static void ifElse(){
-        int a = 3;
+        int a = 4;
         int b = 2;
         if (a>b){
             if (b==8){
