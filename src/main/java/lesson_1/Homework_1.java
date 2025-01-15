@@ -2,7 +2,7 @@ package lesson_1;
 
 
 import java.util.Random;
-
+public class Homework_1{
     //1.Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
     public static void printThreeWords(){
         System.out.println("Orange \n" + "Banana \n" + "Apple");
